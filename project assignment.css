@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* ----------header---------- */
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./image/back.png);
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+/* ---------- NAVBAR ------------ */
+nav{
+	height: 100%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 60px 0 60px;
+	
+}
+.logo{
+	width: 100px;
+}
+ul li{
+	list-style: none;
+	display: inline;
+	color: #ffc233;
+	padding: 0px 15px;
+	font-family: 'Dela Gothic One', cursive;
+}
+.button-small{
+	background-color: #ff505f;
+	padding: 12px 40px;
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 20px;
+}
+/* ---------- text-heading ------------ */
+
+.text-heading{
+	justify-content: center;
+	align-items: center;
+}
+.text-heading h1{
+	color: #ffc233;
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 25px;
+	font-family: 'Red Rose', cursive;
+}
+/* ---------- text-heading button ------------ */
+
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:  background: #ff505f;;
+
+}
+/* ---------- footer------------ */
+.footer {
+	position: absolute;
+ 	 bottom: 20px;
+  	right: 40px;
+}
+.footer img{
+	width: 150px;
+}
